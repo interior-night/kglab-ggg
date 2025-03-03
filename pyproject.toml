@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kglab-ggg"
-version = "0.6.7-ggg"
+version = "0.6.7.0"
 authors = [
     {name = "Paco Nathan", email = "paco@derwen.ai"},
 ]

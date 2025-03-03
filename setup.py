@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     setuptools.setup(
         name = "kglab-ggg",
-        version = kglab_version.__version__ + "-ggg",
+        version = kglab_version.__version__ + ".0",
 
         license = "MIT",
         description = "A simple abstraction layer in Python for building knowledge graphs (without jpype dependency)",
