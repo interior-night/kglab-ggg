@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kglab-nojpype"
-version = "0.6.7-nojpype"
+name = "kglab-ggg"
+version = "0.6.7-ggg"
 authors = [
     {name = "Paco Nathan", email = "paco@derwen.ai"},
 ]

@@ -1,4 +1,4 @@
-# kglab-nojpype
+# kglab-ggg
 
 This is a fork of [kglab](https://github.com/DerwenAI/kglab) that removes the problematic dependency on `pslpython`, which in turn eliminates the need for `jpype1`. This helps avoid build issues on certain platforms and with certain Python versions.
 

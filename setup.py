@@ -71,8 +71,8 @@ if __name__ == "__main__":
     tut_packages = parse_requirements_file("requirements-tut.txt")
 
     setuptools.setup(
-        name = "kglab-nojpype",
-        version = kglab_version.__version__ + "-nojpype",
+        name = "kglab-ggg",
+        version = kglab_version.__version__ + "-ggg",
 
         license = "MIT",
         description = "A simple abstraction layer in Python for building knowledge graphs (without jpype dependency)",
