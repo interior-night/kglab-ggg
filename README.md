@@ -1,3 +1,17 @@
+# kglab-nojpype
+
+This is a fork of [kglab](https://github.com/DerwenAI/kglab) that removes the problematic dependency on `pslpython`, which in turn eliminates the need for `jpype1`. This helps avoid build issues on certain platforms and with certain Python versions.
+
+## Modifications
+
+1. Removed `pslpython` dependency from requirements.txt
+2. Replaced the `PSLModel` class with a stub implementation that raises `NotImplementedError`
+3. Renamed the package to avoid confusion with the original
+
+If you need PSL (Probabilistic Soft Logic) functionality, please use the original `kglab` package instead.
+
+---
+
 # kglab
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6360664.svg)](https://doi.org/10.5281/zenodo.6360664)

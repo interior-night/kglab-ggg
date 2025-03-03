@@ -3,12 +3,12 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kglab"
-version = "0.6.7"
+name = "kglab-nojpype"
+version = "0.6.7-nojpype"
 authors = [
     {name = "Paco Nathan", email = "paco@derwen.ai"},
 ]
-description = "a simple abstraction layer in Python for building knowledge graphs"
+description = "a simple abstraction layer in Python for building knowledge graphs (without jpype dependency)"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 keywords = [
